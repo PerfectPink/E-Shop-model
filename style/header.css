@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__left img{
+    margin-right: 40px;
+}
+.header__left{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    word-spacing: 15px;
+    align-items: center;
+}
+.header__left div a:last-child{
+    word-spacing: 0px;
+}
+.header__left div a{
+    text-decoration: none;
+    color: black;
+}
+.header__right{
+    display: flex;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.header__right div{
+    display: flex;
+    align-items: center;
+    margin: 25px 15px 0px 15px;
+}
+.header__right div img{
+    display: flex;
+    height: 20px;
+    width: auto;
+}
+.header__right a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.sh{
+    height: 2px;
+    background-color: grey;
+    margin: 35px 25px 0px 25px;
+}
