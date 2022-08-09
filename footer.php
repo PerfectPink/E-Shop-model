@@ -18,7 +18,7 @@
         <div class="footer__block ftb3">
             <p>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</p>
             <span>Сайт разработан в inordic.ru</span>
-            <span>2018© Все права защищены lol</span>
+            <span>2018© Все права защищены</span>
             <div class="footer__social-links">
                 <a href="http://twitter.com" class="footer__social-link"><img src="/images/social-icons/twitter-icon.png" alt=""></a>
                 <a href="http://facebook.com"class="footer__social-link"><img src="/images/social-icons/facebook-icon.png" alt=""></a>
