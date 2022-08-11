@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="/style/mans-catalog-block.css">
+
+<link rel="stylesheet" type="text/css" href="/style/mans-catalog-block.css">
 <div class="linkPath">
     <span><a href="/index.php">Главная</a> / Мужчины</span>
 </div>
@@ -36,8 +37,11 @@
     </div>
 </div>
 
-
-
 <?php
-
+ $goods = json_decode(file_get_contents('../goods/goods.json'));
 ?>
+<script defer src="/js/mans-cat-goods.js"></script>
+<html>
+    <div class="goodsList" id="goods-block">
+    </div>
+</html>

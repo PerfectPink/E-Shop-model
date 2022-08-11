@@ -1,0 +1,14 @@
+[
+{"name":"JacketBlue","price":"5400","id":"1"},
+{"name":"LeatherJacket","price":"22500","id":"2"},
+{"name":"JacketWithPockets","price":"9200","id":"3"},
+{"name":"JacketWithHood","price":"6100","id":"4"},
+{"name":"JacketCasual","price":"8800","id":"5"},
+{"name":"DripLeatherJacket","price":"12800","id":"6"},
+{"name":"BootsGray","price":"2900","id":"7"},
+{"name":"BootsBlack","price":"4500","id":"8"},
+{"name":"BootsCasual","price":"5900","id":"9"},
+{"name":"BootsAllWeather","price":"9200","id":"10"},
+{"name":"JeansStandart","price":"4800","id":"11"},
+{"name":"Jeansblue","price":"4200","id":"12"}
+]

@@ -65,3 +65,24 @@
     display: flex;
     flex-direction: column;
 }
+.goodsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 25px 0px 25px;
+
+}
+.goodsItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 25%;
+    margin-bottom: 75px;
+
+}
+.Item__preview{
+    object-fit: cover;
+    max-width: 50%;
+    height: 100%;
+    border: 2px solid lightgrey;
+}

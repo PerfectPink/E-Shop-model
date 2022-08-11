@@ -1,5 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/style/footer.css">
 <footer>
-    <link rel="stylesheet" href="/style/footer.css">
     <div class="footer">
         <div class="footer__block ftb1">
             <p>КОЛЛЕКЦИИ</p>
