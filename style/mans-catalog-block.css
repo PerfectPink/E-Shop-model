@@ -78,10 +78,17 @@
     align-items: center;
     flex-basis: 25%;
     margin-bottom: 75px;
+    height: 400px;
 
 }
+.goodsItem a{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
 .Item__preview{
-    object-fit: cover;
+    object-fit: scale-down;
     max-width: 50%;
     height: 100%;
     border: 2px solid lightgrey;

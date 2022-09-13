@@ -6,8 +6,8 @@ async function getGoods(){
         elem.insertAdjacentHTML("afterbegin",`
         <div class="goodsItem">
         <img src="/images/catalog/${result[i].id}.jpg" alt="" class="Item__preview">
-        <p class="Item__name"><b>${result[i].name}</b></p>
-        <span class="Item__price">${result[i].price}</span>
+        <a href="/pages/productPage.php" onclick = setCookie(${result[i].id})><b>${result[i].name}</b></a>
+        <span class="Item__price">${result[i].price} руб.</span>
         </div>
         `)   
     }

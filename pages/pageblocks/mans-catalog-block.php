@@ -41,6 +41,7 @@
  $goods = json_decode(file_get_contents('../goods/goods.json'));
 ?>
 <script defer src="/js/mans-cat-goods.js"></script>
+<script defer src="/js/cookieMans-catalog.js"></script>
 <html>
     <div class="goodsList" id="goods-block">
     </div>
