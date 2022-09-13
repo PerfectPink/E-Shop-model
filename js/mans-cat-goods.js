@@ -1,6 +1,6 @@
 let elem = document.querySelector('#goods-block')
 async function getGoods(){
-    let res = await fetch("/goods/goods.json")
+    let res = await fetch("/DB/goods.json")
     const result = await res.json()
     for (let i = 0; i < result.length; i++) {
         elem.insertAdjacentHTML("afterbegin",`

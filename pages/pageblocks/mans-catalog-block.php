@@ -38,7 +38,7 @@
 </div>
 
 <?php
- $goods = json_decode(file_get_contents('../goods/goods.json'));
+ $goods = json_decode(file_get_contents('../DB/goods.json'));
 ?>
 <script defer src="/js/mans-cat-goods.js"></script>
 <script defer src="/js/cookieMans-catalog.js"></script>

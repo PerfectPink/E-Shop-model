@@ -1,7 +1,7 @@
 let ProductSection = document.querySelector('#productSection')
 let localStorageProductId = localStorage.getItem("productid")
 async function getProduct(){
-    let dbProductAll = await fetch("/goods/goods.json")
+    let dbProductAll = await fetch("/DB/goods.json")
     const dbProduct = await dbProductAll.json()
     ProductSection.insertAdjacentHTML("afterbegin",`
     <img src="/images/catalog/${dbProduct[localStorageProductId].id}.jpg" class="productPageImg"></img>
