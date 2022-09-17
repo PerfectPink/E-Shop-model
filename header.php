@@ -11,7 +11,9 @@
 <body>
 <header>
     <div class="header__left">
-        <img src="/images/icons/logo.jpg" alt="">
+        <a href="/index.php">
+            <img src="/images/icons/logo.jpg" alt="" onclick="">
+        </a>
         <div>
             <a href="#">Женщинам</a>
             <a href="/pages/mans-catalog.php">Мужчинам</a>
@@ -23,7 +25,9 @@
     <div class="header__right">
         <div>
             <img src="/images/icons/account.png" alt="">
-            <a href="#">Войти</a>
+            <a href="/pages/auth.php">Войти</a>
+            <span class="logRegBreaker">/</span>
+            <a href="/pages/reg.php">Регистрация</a>
         </div>
         <div>
             <img src="/images/icons/bascet.png" alt="">
