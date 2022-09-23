@@ -25,9 +25,24 @@
     <div class="header__right">
         <div>
             <img src="/images/icons/account.png" alt="">
-            <a href="/pages/auth.php">Войти</a>
-            <span class="logRegBreaker">/</span>
-            <a href="/pages/reg.php">Регистрация</a>
+            <?php
+                if($_SESSION['auth'] == true){
+                    ?>
+                    <html>
+                        <span class="user-username"><?php $_SESSION['username']?></span>
+                    </html>
+                    <?php
+
+                }else{?>
+                    <html>
+                    <a href="/pages/auth.php">Войти</a>
+                    <span class="logRegBreaker">/</span>
+                    <a href="/pages/reg.php">Регистрация</a>
+                    </html>
+                    <?php
+                }
+            ?>
+            
         </div>
         <div>
             <img src="/images/icons/bascet.png" alt="">

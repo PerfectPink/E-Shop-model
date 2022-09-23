@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+form input{
+    margin: 10px;
+    height: 40px;
+    width: 50%;
+}
+form input:last-child{
+    width: 25%;
+    background-color: white;
+}
+form input:last-child:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    border-color: gray;
+}
